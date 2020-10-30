@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.dreamcode.automation</groupId>
+  <artifactId>AppBienestarSegurosBolivar</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+	<dependency>
+    	<groupId>io.appium</groupId>
+    	<artifactId>java-client</artifactId>
+    	<version>7.0.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-java</artifactId>
+    	<version>3.141.59</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.1.0</version>
+    	<scope>test</scope>
+	</dependency>
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<dependency>
+    	<groupId>io.cucumber</groupId>
+    	<artifactId>cucumber-java</artifactId>
+    	<version>6.6.0</version>
+	</dependency>
+   	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+    	<version>6.6.0</version>
+    	<scope>test</scope>
+	</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>gherkin</artifactId>
+	    <version>15.0.2</version>
+	</dependency>
+		<!-- https://mvnrepository.com/artifact/io.selendroid/selendroid-client -->
+	<dependency>
+    	<groupId>io.selendroid</groupId>
+    	<artifactId>selendroid-client</artifactId>
+    	<version>0.4.2</version>
+	</dependency>	
+	<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+	<dependency>
+   		<groupId>net.masterthought</groupId>
+    	<artifactId>cucumber-reporting</artifactId>
+    	<version>3.7.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+	<dependency>
+    	<groupId>io.cucumber</groupId>
+    	<artifactId>cucumber-core</artifactId>
+    	<version>6.6.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm-deps -->
+	<dependency>
+    	<groupId>info.cukes</groupId>
+    	<artifactId>cucumber-jvm-deps</artifactId>
+    	<version>1.0.5</version>
+    	<scope>provided</scope>
+	</dependency>
+  </dependencies>
+</project>
